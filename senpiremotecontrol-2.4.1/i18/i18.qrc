@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/i18">
+        <file alias="de">de.qm</file>
+        <file alias="ru">ru.qm</file>
+        <file alias="uk">uk.qm</file>
+        <file alias="qt_de">qt_de.qm</file>
+        <file alias="qt_ru">qt_ru.qm</file>
+        <file alias="qt_uk">qt_uk.qm</file>
+    </qresource>
+</RCC>
