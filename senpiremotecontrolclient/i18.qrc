@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>i18/de.qm</file>
+        <file>i18/ru.qm</file>
+        <file>i18/tr.qm</file>
+        <file>i18/uk.qm</file>
+        <file>i18/es.qm</file>
+        <file>i18/it.qm</file>
+    </qresource>
+</RCC>

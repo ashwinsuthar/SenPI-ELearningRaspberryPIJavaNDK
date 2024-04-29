@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<qnx xmlns="http://www.qnx.com/schemas/application/1.0">
+    <id>org.senpi.senpicontrol-client</id>
+    <name>SenPiControl Client</name>
+    <versionNumber>2.6.1</versionNumber>
+    <icon>
+        <image>qrc_green_meego114.png</image>
+    </icon>
+    <description>With SenPi you can control your computer remotely.</description>
+    <initialWindow>
+        <autoOrients>true</autoOrients>
+        <systemChrome>none</systemChrome>
+        <transparent>false</transparent>
+    </initialWindow>
+    <author>senpi.org</author>
+    <copyright>Copyright 2015-2017 by SenPi</copyright>
+    <env value="app/native/imports:/usr/lib/qt4/imports" var="QML_IMPORT_PATH"/>
+    <env value="app/native/plugins:/usr/lib/qt4/plugins" var="QT_PLUGIN_PATH"/>
+    <env value="app/native/lib:/usr/lib/qt4/lib/" var="LD_LIBRARY_PATH"/>
+    <arg>-style</arg>
+    <arg>qnxlight</arg>
+    <action system="true">run_native</action>
+    <action>access_internet</action>
+    <!-- senpicontrol2 should point to the project binary, path can be relative -->
+    <asset type="Qnx/Elf" path="senpicontrol2" entry="true">senpicontrol2</asset>
+    <asset path="%SRC_DIR%/qml">qml</asset>
+    <asset path="/home/alexander/projects/senpicontrol-client/svg/qrc_green_meego114.png">qrc_green_meego114.png</asset>
+    <authorId>gYAAgFPlfKdPddZH5EdJnaAtSGI</authorId>
+</qnx>
